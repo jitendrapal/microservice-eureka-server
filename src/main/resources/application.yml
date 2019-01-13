@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: microservice-eureka-server
+  jmx:
+    default-domain: cras-eureka-server
+server:
+  port: 8073
+  
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    server:
+      waitTimeInMsWhenSyncEmpty: 0
