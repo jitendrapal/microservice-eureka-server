@@ -2,7 +2,7 @@ spring:
   application:
     name: microservice-eureka-server
   jmx:
-    default-domain: cras-eureka-server
+    default-domain: xyz-eureka-server
 server:
   port: 8073
   
